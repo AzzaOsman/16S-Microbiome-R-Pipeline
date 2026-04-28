@@ -9,35 +9,41 @@ Objectives
 
 Workflow
 1. Sequence Processing (DADA2)
-    Quality filtering and trimming
-    Error model learning
-    Dereplication and ASV inference
-    Chimera removal
+    a. Quality filtering and trimming
+    b. Error model learning
+    c. Dereplication and ASV inference
+    d. Chimera removal
 3. Taxonomic Assignment
-    Classification using the SILVA reference database
+    a. Classification using the SILVA reference database
 4. Phyloseq Analysis
-    Integration of ASV table, taxonomy, and metadata
-    Data transformation to relative abundance
-    Taxonomic aggregation (e.g., phylum/genus level)
+    a. Integration of ASV table, taxonomy, and metadata
+    b. Data transformation to relative abundance
+    c. Taxonomic aggregation (e.g., phylum/genus level)
 
 Analyses Performed
-    Relative abundance bar plots
-    Alpha diversity analysis
-    Beta diversity analysis (ordination: PCoA/NMDS)
-    Comparison of microbial composition across rivers
+    1. Relative abundance bar plots
+    2. Alpha diversity analysis
+    3. Beta diversity analysis (ordination: PCoA/NMDS)
+    4. Comparison of microbial composition across rivers
 
 Requirements
-    R (≥ 4.x)
-    Packages:
-    dada2
-    phyloseq
-    ggplot2
-    tidyverse
-    vegan
+    1. R (≥ 4.x)
+    2. Packages:
+        a. dada2
+        b. phyloseq
+        c. ggplot2
+        d. dplyr
+        e. scales
+        f. tidyr
+        g. openxlsx
+        h. writexl
+        i. vegan
+        j. pheatmap
+        l. multcomp
 
 Notes
-    This analysis was conducted as part of a microbiome data analysis workshop
-    The dataset is used for training and demonstration purposes
+    1. This analysis was conducted as part of a microbiome data analysis workshop
+    2. The dataset is used for training and demonstration purposes
 
 Author
     Nur Azzah Binti Osman
