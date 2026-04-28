@@ -8,14 +8,14 @@ Objectives:
 3. To analyse alpha and beta diversity across river water 
 
 Workflow:
-1. Sequence Processing (DADA2)
+1. Sequence Processing (DADA2):
     a. Quality filtering and trimming
     b. Error model learning
     c. Dereplication and ASV inference
     d. Chimera removal
-3. Taxonomic Assignment
+3. Taxonomic Assignment:
     a. Classification using the SILVA reference database
-4. Phyloseq Analysis
+4. Phyloseq Analysis:
     a. Integration of ASV table, taxonomy, and metadata
     b. Data transformation to relative abundance
     c. Taxonomic aggregation (e.g., phylum/genus level)
