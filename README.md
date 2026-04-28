@@ -2,12 +2,12 @@ Microbiome Analysis (16S rRNA)
 
 This repository contains microbiome data analysis using river water samples. The analysis follows a standard 16S rRNA amplicon sequencing workflow in R, from sequence processing to community-level analysis.
 
-Objectives
+Objectives:
 1. To process raw 16S rRNA sequencing data into ASVs
 2. To characterize microbial community composition
 3. To analyse alpha and beta diversity across river water 
 
-Workflow
+Workflow:
 1. Sequence Processing (DADA2)
     a. Quality filtering and trimming
     b. Error model learning
@@ -20,13 +20,13 @@ Workflow
     b. Data transformation to relative abundance
     c. Taxonomic aggregation (e.g., phylum/genus level)
 
-Analyses Performed
+Analyses Performed:
     1. Relative abundance bar plots
     2. Alpha diversity analysis
     3. Beta diversity analysis (ordination: PCoA/NMDS)
     4. Comparison of microbial composition across rivers
 
-Requirements
+Requirements:
     1. R (≥ 4.x)
     2. Packages:
         a. dada2
@@ -41,9 +41,9 @@ Requirements
         j. pheatmap
         l. multcomp
 
-Notes
+Notes:
     1. This analysis was conducted as part of a microbiome data analysis workshop
     2. The dataset is used for training and demonstration purposes
 
-Author
+Author:
     Nur Azzah Binti Osman
